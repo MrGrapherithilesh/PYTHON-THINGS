@@ -1,3 +1,3 @@
-This invovles in the making of projects entirely on my own with no use of ai thus it could have some errors not really i have checked multiple times 
-Till now i have made two programms one is all about a medical system kindoff thing and the other is a kindoff personal assistant thing which could help user to relax a bit with its sarcasam and pointless behaviours these are pretty basic things and these are made to test my knowledge on filed nothing more then that....
-
+This involves making projects entirely on my own with no use of AI, so there could be some errors. Not really though, as I have checked them multiple times.
+Till now, I have made two programs. One is about a medical system kind of thing, and the other is a kind of personal assistant that could help users relax a bit with its sarcasm and pointless behavior.
+These are pretty basic projects and were made only to test my knowledge in the field, nothing more than that.
