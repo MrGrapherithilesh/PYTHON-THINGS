@@ -1,0 +1,192 @@
+print("Welcome to Yours truely trust me Bot")
+print("Im always correct ")
+print ("Even if im wrong hee hee hee")
+print("My brain is far more better then your potato brain hee hee ")
+
+message = input("Who are you? ")
+
+print("Bot: I see....")
+print("What is your gender?")
+
+message = input("Gender: ")
+
+print("Nah Nah you are gay....\n Cause your gay ")
+
+message = input("Arent you? ")
+
+print("Council disagrees\nThat you aren't")
+
+message = input("Do you think that you are intelligent? : ")
+
+print("Thank god That's a joke i know hee hee")
+print("Any ways budd tell me about your hobbies")
+
+hobbies = [input("Hobbies:")]
+hobbies.append(hobbies)
+
+print(hobbies)
+print("Those are idiotic hee hee")
+
+from datetime import datetime
+dob = input("Enter your DOB gay: ")
+date = datetime.strptime(dob, '%d-%m-%Y')
+import time
+
+messages = [
+    "kicking potato brain to wakeup ...",
+    "Brain in dragggyyyy start...",
+    "Brushing up the brain...",
+    "Opening the calender...",
+    "Ho thats my ex bday...",
+    "Yoo sorry forget about that and aaa......."
+]
+
+for msg in messages:
+    print(msg)
+    time.sleep(3)
+
+print("Done. Accuracy not guaranteed.")
+
+print("Yoo this gay sorry sorry crap born on ", date.strftime("%A"))
+
+day = date.strftime("%A")
+
+if day == "Sunday":
+    print("Bot: Sunday baby detected.")
+elif day == "Monday":
+    print("Bot: My condolences.")
+elif day == "Friday":
+    print("Bot: Weekend enjoyer.")
+else:
+    print("Bot: Interesting specimen.")
+
+answer = input("Are you rich? ")
+
+if answer == "yes":
+    print("Bot: No, you are not.")
+else:
+    print("Bot: Exactly, I knew it.")
+
+    animal = input("What animal are you? ")
+
+    if animal == "dog":
+        print("Bot: Good boy.")
+    elif animal == "cat":
+        print("Bot: Internet celebrity.")
+    elif animal == "potato":
+        print("Bot: Finally, an honest person.")
+    else:
+        print("Bot: Unknown creature detected.")
+
+print("System infected by this brute virus...\nFlushing out the virus")
+import time
+
+for i in range(101):
+    print(f"\rFlushing... {i}%", end="")
+    time.sleep(0.09)
+
+print("\nComplete!")
+
+import time
+
+train = "o====[]::::::::>"
+
+for i in range(40):
+    print(
+        "\r" + " " * i + train +
+        " Loading misinformation...",
+        end=""
+    )
+    time.sleep(0.08)
+
+print("\r✓ Misinformation delivered successfully!                    ")
+
+import random
+
+name = ""
+
+roasts = [
+    "Your calculator works harder than you.",
+    "Even potatoes have bigger dreams.",
+    "You could lose a staring contest with a wall.",
+    "Your brain is running on battery saver mode.",
+    "Error 404: Intelligence not found."
+]
+
+futures = [
+    "Tomorrow you will step on a LEGO.",
+    "A potato will change your life.",
+    "You will forget your password.",
+    "You will find money and lose it 5 minutes later.",
+    "A mosquito is planning something."
+]
+print("\nChoose from this things u idiot: dog,smart,rich,who am i,my name is,furutre,iq,roast me,bye\n")
+while True:
+    message = input("You: ").lower()
+
+    if message == "bye":
+        print("Bot: Finally. Goodbye.")
+        break
+
+    elif message == "roast me":
+        print("Bot:", random.choice(roasts))
+
+    elif message == "iq":
+        print("Calculating IQ...")
+        print("Bot: IQ =", random.randint(1, 250))
+
+    elif message == "future":
+        print("Bot:", random.choice(futures))
+
+    elif message.startswith("my name is"):
+        name = message.replace("my name is", "").strip()
+        print("Bot: Unfortunately noted.")
+
+    elif message == "who am i":
+        if name:
+            print(f"Bot: You claim to be {name}.")
+        else:
+            print("Bot: You never told me.")
+
+    elif "rich" in message:
+        print("Bot: LIE DETECTED.")
+
+    elif "smart" in message:
+        print("Bot: Evidence unavailable.")
+
+    elif "dog" in message:
+        print("Bot: Good boy.")
+
+    else:
+        print("Bot: I disagree.")
+print("Brain heated because of this bastard...\nCooling down...\nCompletes in")
+import time
+
+messages = [
+    "Cleaning the junk by this ufff",
+    "Not agin....",
+    "Hoo comeon.....",
+    "For gods sake....",
+    "Utter maniac....",
+    "Generating Confidence with a piece of peace...zuuuzuuuzuuu"
+]
+
+total = 60
+
+for i in range(total + 1):
+    percent = int((i / total) * 100)
+
+    msg = messages[(i // 10) % len(messages)]
+
+    bar = "█" * (percent // 2)
+    spaces = " " * (50 - len(bar))
+
+    print(
+        f"\r[{bar}{spaces}] {percent}% | {msg}...",
+        end=""
+    )
+
+    time.sleep(1)
+
+print("\n\nPotato engine is back to fire.....Dady's Home!")
+
